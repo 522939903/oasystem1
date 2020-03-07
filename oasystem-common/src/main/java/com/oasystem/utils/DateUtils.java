@@ -11,12 +11,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-/**
- * @ClassName DateUtils
- * @Description
- * @Author suguoming
- * @Date 2020/2/18 7:48 下午
- */
+
 public class DateUtils {
     public static List<String> getMonthFullDay(int year, int month) {
         SimpleDateFormat dateFormatYYYYMMDD = new SimpleDateFormat("yyyy-MM-dd");

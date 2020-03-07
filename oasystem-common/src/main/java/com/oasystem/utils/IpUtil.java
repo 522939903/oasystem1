@@ -4,12 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-/**
- * @ClassName IpUtil
- * @Description
- * @Author suguoming
- * @Date 2020/2/8 1:13 下午
- */
+
 public class IpUtil {
     public static String getIpAddr(HttpServletRequest request) {
         String ipAddress = null;

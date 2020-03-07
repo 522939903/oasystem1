@@ -16,14 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-;
 
-/**
- * @ClassName QiniuUtils
- * @Description
- * @Author suguoming
- * @Date 2020/2/19 5:45 下午
- */
 @Component
 public class QiniuUtils {
     @Value("${accessKey}")

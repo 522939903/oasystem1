@@ -14,12 +14,6 @@ import javax.annotation.Resource;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * @ClassName UserInfoServiceImpl
- * @Description
- * @Author suguoming
- * @Date 2020/2/15 11:15 下午
- */
 @Service
 public class UserInfoServiceImpl implements UserInfoService {
 
